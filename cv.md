@@ -3,19 +3,25 @@
 #### Yurii Pidhirnyi
 -----
 **Contacts:**
-*Discord: YZTwin
-*E-mail: yury.twins@gmail.com
-*Tel: +38068 987 6321
+
+
+* Discord: YZTwin
+* E-mail: yury.twins@gmail.com
+* Tel: +38068 987 6321
 
 **About myself:**
+
+
 I want to do site layout. Explore the best layout technologies available such as HTML5, CSS3, JavaScript, and more.
 
 **Skills:**
-*HTML5
-*CSS3
-*JavaScript Basics
-*Git
-*VS Code
+
+
+* HTML5
+* CSS3
+* JavaScript Basics
+* Git
+* VS Code
 
 **Code Example:**
 ```
@@ -38,8 +44,16 @@ function maskify (cc) {
     }
 };
 ```
+
+
 **Education:**
+
+
 Basics of Web UI Development 2020 (Lviv IT School on Prometheus)
 **Languages:**
+
+
 English - A1
+
+
 Ukrainian - Native
