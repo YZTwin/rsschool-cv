@@ -1,13 +1,13 @@
-#### RSSCHOOL-CV
+
 -----
 #### Yurii Pidhirnyi
 -----
 **Contacts:**
 
 
-* Discord: YZTwin
+* Discord: Yurii#4470
 * E-mail: yury.twins@gmail.com
-* Tel: +38068 987 6321
+* Tel: +38 068 987 6321
 
 **About myself:**
 
