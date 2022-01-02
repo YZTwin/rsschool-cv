@@ -50,6 +50,8 @@ function maskify (cc) {
 
 
 Basics of Web UI Development 2020 (Lviv IT School on Prometheus)
+
+
 **Languages:**
 
 
