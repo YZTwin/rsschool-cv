@@ -19,7 +19,7 @@
             <div class="about">
                 <h2 class="about-position">Front-End Developer</h2>
                 <h1 class="about-name">Yurii Pidhirnyi</h1>
-                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                <p class="about-text">Hi! I study at RSSCHOOL. I want to do site layout. Explore the best layout technologies available such as HTML5, CSS3, JavaScript, and more. 
                 </p>
                 
             </div>
@@ -37,55 +37,69 @@
             </div>
             <!-- Work -->
             <div class="work">
-                <h3 class="title">Work Experience</h3>
+                <h3 class="title">A little information about yourself</h3>
                 <!-- Company #1 -->
                 <div>
-                    <h3 class="position">Front-End Developer <span class="organization"> Freelance </span></h3>
-                    <p class="period">September 2019 - up to now  <span class="vertical-line">|</span>    Country</p>
-                    <ul class="work-list">
-                        <li class="work-list-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </li>
-                        <li class="work-list-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </li>
-                        <li class="work-list-item">
-                            Risus commodo viverra maecenas. 
-                        </li>
-                        <li class="work-list-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. 
-                        </li>
-                    </ul>
+                    <h3 class="position">Code Example <span class="organization"> codewars.com </span></h3>
+                    <p class="period">December 2021 - up to now  <span class="vertical-line">|</span>   Ukraine </p>
+                    
+                        
+                            <pre>
+                                <code>
+        function maskify (cc) {
+            
+            if (cc.length <= 4 || cc.length == 0) {
+                console.log (`\"` + cc + `\"`);
+                return ('\"' + cc + '\"');
+                
+            } else {
+                let a = "";
+                for (let i = 0; i < cc.length - 4; i++) {
+                    a = a + `#`;
+                }
+                a = a + cc.slice(cc.length - 4, cc.length);
+                console.log ('\"' + a + '\"');
+                return ('\"' + a + '\"');
+                
+            }
+        };
+                                </code>
+                            </pre>
+                    
                 </div>
                 <!-- Company #2 -->
                 <div>
-                    <h3 class="position">Manager <span class="organization"> Roga & Kopyta New </span></h3>
-                    <p class="period">March 2015 - October 2018  <span class="vertical-line">|</span>    Country</p>
-                    <ul class="work-list">
-                        <li class="work-list-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </li>
-                        <li class="work-list-item">
-                            Quis ipsum suspendisse ultrices gravida.
-                        </li>
-                        <li class="work-list-item">
-                            Risus commodo viverra maecenas. 
-                        </li>
-                    </ul>
+                    <h3 class="position">Code Example <span class="organization"> codewars.com </span></h3>
+                    <p class="period">December 2021 - up to now  <span class="vertical-line">|</span>    Ukraine</p>
+                    <pre>
+                        <code>
+        function createPhoneNumber(numbers){
+            let stringPhone = "";
+            for (let index = 0; index < numbers.length; index++) {
+                stringPhone = stringPhone + numbers[index];
+            }
+            let result = "("+ stringPhon.slice(0, 3) + ") " + 
+            stringPhon.slice(3, 6) + 
+            "-" + stringPhon.slice(6, 10);
+            console.log (result);
+            return result;
+        }
+                        </code>
+                    </pre>
                 </div>
                 <!-- Company #3 -->
                 <div>
-                    <h3 class="position">Manager <span class="organization"> Roga & Kopyta LLC </span></h3>
-                    <p class="period">September 2009 - June 2014  <span class="vertical-line">|</span>    Country</p>
+                    <h3 class="position">Languages <span class="organization"> Languages </span></h3>
+                    <p class="period">September 2009 - June 2014  <span class="vertical-line">|</span>    Ukraine</p>
                     <ul class="work-list">
                         <li class="work-list-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            English - A1
                         </li>
                         <li class="work-list-item">
-                            Quis ipsum suspendisse ultrices gravida.
+                            Ukrainian - Native
                         </li>
                         <li class="work-list-item">
-                            Risus commodo viverra maecenas. 
+                            Russian - Intermediate 
                         </li>
                     </ul>
                 </div>
@@ -93,9 +107,9 @@
             <!-- Education -->
             <div class="education">
                 <h3 class="title">Education</h3>
-                <p class="university">National University of Radioelectronics</p>
-                <p class="specialty">Management</p>
-                <p class="period">September 2009 - June 2014   <span class="vertical-line">|</span>   Country</p>
+                <p class="university">Lviv IT School on Prometheus</p>
+                <p class="specialty">Basics of Web UI Development 2020</p>
+                <p class="period">September 2021 - November 2021   <span class="vertical-line">|</span>   Ukraine</p>
             </div>
         </div>
         <!-- Sidebar -->
@@ -131,7 +145,7 @@
             </div>
             <!-- Soft Skills -->
             <div class="soft-skills">
-                <h3 class="sidebar-title">Tech Skills</h3>
+                <h3 class="sidebar-title">Soft Skills</h3>
                 <ul class="soft-skills-list">
                     <li class="soft-skills-item"> <span class="soft-skills-text">Scrum</span></li>
                     <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span></li>
